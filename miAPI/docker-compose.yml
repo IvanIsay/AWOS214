@@ -1,0 +1,9 @@
+services:
+  api_214:
+    build: .
+    container_name: server_FastAPI_214
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/app/app
+     
