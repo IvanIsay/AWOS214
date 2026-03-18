@@ -3,7 +3,7 @@ services:
     build: .
     container_name: server_FastAPI_214
     ports:
-      - "5000:5000"
+      - "5014:5014"
     volumes:
       - ./app:/app/app
      
